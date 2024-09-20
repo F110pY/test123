@@ -5,8 +5,8 @@ var _left = keyboard_check(ord("A"))
 var _up = keyboard_check(ord("W"))
 var _down = keyboard_check(ord("S"))
 
-x = Ob_collision_player_1.x
-y = Ob_collision_player_1.y
+x = Ob_collision_player.x
+y = Ob_collision_player.y
 
 if (_right || _left || _up || _down) {
     // Перемещение и расчет угла на основе направления
