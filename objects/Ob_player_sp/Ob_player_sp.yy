@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_walk",
-    "path":"sprites/Spr_walk/Spr_walk.yy",
+    "name":"Spr_walk_pl",
+    "path":"sprites/Spr_walk_pl/Spr_walk_pl.yy",
   },
   "spriteMaskId":null,
   "visible":true,
