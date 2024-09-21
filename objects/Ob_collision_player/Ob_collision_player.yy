@@ -9,8 +9,8 @@
   "name":"Ob_collision_player",
   "overriddenProperties":[],
   "parent":{
-    "name":"Объекты",
-    "path":"folders/Объекты.yy",
+    "name":"Player",
+    "path":"folders/Объекты/Player.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sp_collision",
+    "path":"sprites/Sp_collision/Sp_collision.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

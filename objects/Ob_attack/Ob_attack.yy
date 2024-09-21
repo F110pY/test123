@@ -1,15 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_player_sp",
+  "%Name":"Ob_attack",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ob_player_sp",
+  "name":"Ob_attack",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player",
-    "path":"folders/Объекты/Player.yy",
+    "name":"Объекты",
+    "path":"folders/Объекты.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sp_idle_pl",
-    "path":"sprites/Sp_idle_pl/Sp_idle_pl.yy",
+    "name":"Sp_attack_pl",
+    "path":"sprites/Sp_attack_pl/Sp_attack_pl.yy",
   },
   "spriteMaskId":null,
   "visible":true,

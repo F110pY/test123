@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_player_sp",
+  "%Name":"Ob_leg_pl",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ob_player_sp",
+  "name":"Ob_leg_pl",
   "overriddenProperties":[],
   "parent":{
     "name":"Player",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sp_idle_pl",
-    "path":"sprites/Sp_idle_pl/Sp_idle_pl.yy",
+    "name":"Sp_leg_pl",
+    "path":"sprites/Sp_leg_pl/Sp_leg_pl.yy",
   },
   "spriteMaskId":null,
   "visible":true,
