@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_wall",
-  "eventList":[],
+  "%Name":"Ob_camera",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Ob_wall",
+  "name":"Ob_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Объекты/Blocks.yy",
+    "name":"Объекты",
+    "path":"folders/Объекты.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Sp_collision_wall",
-    "path":"sprites/Sp_collision_wall/Sp_collision_wall.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -30,15 +30,16 @@ if (!global.is_attacking) {
 	global.stamina = clamp(global.stamina, 0, global.max_stamina);
 
     if (_run and (_left or _right or _up or _down) and global.stamina >0) {
-        global._move_speed += 3;
+        global._move_speed += 0.6;
     }
 
 
 	// Перекат
-	if (_roll and is_rolling == false) {
+	if (_roll and is_rolling == false and global.stamina >66) {
 		show_debug_message("Перекат начат!");
 
 		is_rolling = true; // Включаем флаг переката
+		global.stamina -= global.max_stamina/3
 		roll_timer = roll_duration; // Устанавливаем таймер переката
 		
 		// Расчет направления переката
@@ -64,7 +65,10 @@ if (!global.is_attacking) {
         if (!place_meeting(x, y + roll_y, Ob_wall)) {
             y += roll_y; // Перемещаем игрока
         }
-
+		if (global.stamina_recovery_timer >= global.stamina_recovery_delay && global.stamina < global.max_stamina) {
+			global.stamina += global.stamina_increase_rate;
+		}
+		global.stamina_recovery_timer = 0
         roll_timer--; // Уменьшаем таймер
     } else {
         is_rolling = false; // Завершаем перекат

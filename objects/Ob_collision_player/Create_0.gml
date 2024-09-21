@@ -1,5 +1,5 @@
 global._move_speed = 0
-my_speed = 3
+my_speed = 1
 hsp = 0
 vsp = 0
 global.stamina = 200;  // Начальная стамина
@@ -11,5 +11,5 @@ global.stamina_recovery_timer = 0; // Таймер восстановления 
 is_rolling = false; // Флаг переката
 roll_duration = 20; // Длительность переката в кадрах
 roll_timer = 0; // Таймер для отслеживания времени переката
-roll_distance = 5; // Дистанция переката
+roll_distance = 2; // Дистанция переката
 roll_direction = 0
