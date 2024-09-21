@@ -7,8 +7,12 @@ var _down = keyboard_check(ord("S"))
 
 x = Ob_collision_player.x
 y = Ob_collision_player.y
+if (global.is_attacking){
+	image_index = 0
+	image_speed = 0
+}
 
-if (_right || _left || _up || _down) {
+if (_right || _left || _up || _down and !global.is_attacking) {
 	image_speed = 0.7
 	
     // Перемещение и расчет угла на основе направления

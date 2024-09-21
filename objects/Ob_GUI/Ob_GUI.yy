@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_wall",
-  "eventList":[],
+  "%Name":"Ob_GUI",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Ob_wall",
+  "name":"Ob_GUI",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Объекты/Blocks.yy",
+    "name":"Объекты",
+    "path":"folders/Объекты.yy",
   },
   "parentObjectId":null,
   "persistent":false,

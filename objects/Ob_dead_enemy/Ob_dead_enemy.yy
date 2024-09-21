@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_wall",
+  "%Name":"Ob_dead_enemy",
   "eventList":[],
   "managed":true,
-  "name":"Ob_wall",
+  "name":"Ob_dead_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Blocks",
-    "path":"folders/Объекты/Blocks.yy",
+    "name":"Enemy",
+    "path":"folders/Объекты/Enemy.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sp_dead_en",
+    "path":"sprites/Sp_dead_en/Sp_dead_en.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

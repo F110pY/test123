@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Спрайты",
-    "path":"folders/Спрайты.yy",
+    "name":"Spr_blocks",
+    "path":"folders/Спрайты/Spr_blocks.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

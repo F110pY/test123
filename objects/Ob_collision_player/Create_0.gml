@@ -1,5 +1,10 @@
-/// @description Вставьте описание здесь
-// Вы можете записать свой код в этом
+global._move_speed = 0
 my_speed = 4
 hsp = 0
 vsp = 0
+global.stamina = 200;  // Начальная стамина
+global.max_stamina = 200; // Максимальная стамина
+global.stamina_decrease_rate = 1; // Скорость уменьшения стамины при беге
+global.stamina_increase_rate = 0.5; // Скорость восстановления стамины
+global.stamina_recovery_delay = 60; // Задержка перед восстановлением стамины (в кадрах)
+global.stamina_recovery_timer = 0; // Таймер восстановления стамины
