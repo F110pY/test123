@@ -30,7 +30,7 @@ if (!global.is_attacking) {
 	global.stamina = clamp(global.stamina, 0, global.max_stamina);
 
     if (_run and (_left or _right or _up or _down) and global.stamina >0) {
-        global._move_speed += 0.6;
+        global._move_speed += 2; //изменить скорость спринта
     }
 
 

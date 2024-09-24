@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"Shader_Tree",
+  "name":"Shader_Tree",
+  "parent":{
+    "name":"Шейдеры",
+    "path":"folders/Шейдеры.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

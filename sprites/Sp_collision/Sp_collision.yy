@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Спрайты",
-    "path":"folders/Спрайты.yy",
+    "name":"Spr_player",
+    "path":"folders/Спрайты/Spr_player.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

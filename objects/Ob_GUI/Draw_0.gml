@@ -4,6 +4,8 @@ var stamina_bar_width = 100; // Ширина полосы стамины
 var stamina_bar_height = 10; // Высота полосы стамины
 var stamina_x = Ob_collision_player.x - stamina_bar_width / 2; // Центрирование полосы
 var stamina_y = Ob_collision_player.y + 30; // Положение полосы над персонажем
+depth = -100; // Объект GUI будет рисоваться поверх всех остальных
+
 
 // Фон полосы стамины
 draw_set_color(c_black);
@@ -16,3 +18,5 @@ draw_rectangle(stamina_x, stamina_y, stamina_x + (global.stamina / global.max_st
 draw_text(20,20, global._move_speed)
 if instance_exists(Ob_enemy)
 	draw_text(50, 50, Ob_enemy.hp);
+	
+shader_reset();

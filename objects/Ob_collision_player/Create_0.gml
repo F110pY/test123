@@ -1,5 +1,5 @@
 global._move_speed = 0
-my_speed = 1
+my_speed = 2
 hsp = 0
 vsp = 0
 global.stamina = 200;  // Начальная стамина
